@@ -14,11 +14,10 @@
  */
 
 function GeoLocation () {
-  var _radLat, _radLon, _degLat, _degLon,
-  _MIN_LAT = this._toRad(-90),
-  _MAX_LAT = this._toRad(90),
-  _MIN_LON = this._toRad(-180),
-  _MAX_LON = this._toRad(180);
+  this._MIN_LAT = this._toRad(-90);
+  this._MAX_LAT = this._toRad(90);
+  this._MIN_LON = this._toRad(-180);
+  this._MAX_LON = this._toRad(180);
 }
 
 GeoLocation.prototype.getLatitudeInDegrees = function() {
@@ -93,8 +92,8 @@ GeoLocation.prototype.distanceTo = function(location, radius) {
  * </ul>
  */
 GeoLocation.prototype.boundingCoordinates = function(distance, radius) {
-  if (radius < 0 || isNAN(radius)) throw new Error("Wrong radius");
-  if (distance < 0 || isNAN(distance)) throw new Error("Wrong distance");
+  if (radius < 0 || isNaN(radius)) throw new Error("Wrong radius");
+  if (distance < 0 || isNaN(distance)) throw new Error("Wrong distance");
 
   var radDis = distance / radius,
   minLat = this._radLat - radDis,
@@ -117,10 +116,8 @@ GeoLocation.prototype.boundingCoordinates = function(distance, radius) {
     maxLon = this._MAX_LON;
   }
 
-  boundingBox.push(minLat);
-  boundingBox.push(minLon);
-  boundingBox.push(maxLat);
-  boundingBox.push(maxLon);
+  boundingBox.push(fromRadians(minLat,minLon));
+  boundingBox.push(fromRadians(maxLat,maxLon));
 
   return boundingBox;
 }

@@ -5,6 +5,7 @@
   "devDependencies": {
     "mocha": "1.13.0"
   },
+  "main": "./GeoLocation.js",
   "scripts": {
     "test": "./node_modules/.bin/mocha --reporter list"
   },
@@ -18,5 +19,16 @@
     "distance",
     "geo",
     "point"
-  ]
+  ],
+  "readme": "## Finding Points Within a Distance of a Latitude/Longitude Using Bounding Coordinates\n\nThis javascript implemantation was build up via [Jan Matuscheks Java Implementation](http://janmatuschek.de/LatitudeLongitudeBoundingCoordinates).\n\nI've tried to implement everything so that the look and feel seems to be the same.",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/DoomyTheFroomy/GeoLocation/issues"
+  },
+  "_id": "GeoLocation@0.0.1",
+  "dist": {
+    "shasum": "b16bd637596bb8e6d305ba439d74045e8e71e583"
+  },
+  "_resolved": "git+https://github.com/DoomyTheFroomy/GeoLocation#1db6c9fb278d7a75553dd43919c8c2e79bdd1522",
+  "_from": "git+https://github.com/DoomyTheFroomy/GeoLocation"
 }
