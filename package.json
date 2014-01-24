@@ -1,9 +1,10 @@
 {
   "name": "GeoLocation",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "provides functions to get the distance between two points and to generate a bounding box around a point",
   "devDependencies": {
-    "mocha": "1.13.0"
+    "mocha": "1.13.0",
+    "underscore": "1.5.2"
   },
   "main": "./GeoLocation.js",
   "scripts": {
