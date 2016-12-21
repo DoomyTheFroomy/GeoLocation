@@ -3,8 +3,8 @@
   "version": "0.0.2",
   "description": "provides functions to get the distance between two points and to generate a bounding box around a point",
   "devDependencies": {
-    "mocha": "1.13.0",
-    "underscore": "1.5.2"
+    "mocha": "3.2.0",
+    "underscore": "1.8.3"
   },
   "main": "./GeoLocation.js",
   "scripts": {
