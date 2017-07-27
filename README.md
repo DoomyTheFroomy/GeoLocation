@@ -1,10 +1,10 @@
 # GeoLocation Helper Functions 
 
 **Finding Points Within a Distance of a Latitude/Longitude Using Bounding Coordinates**
-<p align="center">
+
 [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 [![Build Status](https://travis-ci.org/DoomyTheFroomy/GeoLocation.svg?branch=develop)](https://travis-ci.org/DoomyTheFroomy/GeoLocation)
-</p>
+
 This JavaScript implementation was build up via [Jan Matuscheks Java Implementation](http://janmatuschek.de/LatitudeLongitudeBoundingCoordinates).
 
 I've tried to implement everything so that the look and feel seems to be the same.
