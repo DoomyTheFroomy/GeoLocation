@@ -1,6 +1,6 @@
 {
   "name": "geolocationhelper",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "provides functions to get the distance between two points and to generate a bounding box around a point",
   "author": {
     "email": "yapdoomman@web.de",
