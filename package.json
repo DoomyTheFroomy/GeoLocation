@@ -1,12 +1,18 @@
 {
   "name": "GeoLocation",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "description": "provides functions to get the distance between two points and to generate a bounding box around a point",
+  "author": {
+    "email": "yapdoomman@web.de",
+    "name": "DoomyTheFroomy",
+    "url": "http://dtf.io/"
+  },
   "devDependencies": {
     "mocha": "3.4.2",
     "underscore": "1.8.3"
   },
-  "main": "./GeoLocation.js",
+  "license": "MIT",
+  "main": "GeoLocation.js",
   "scripts": {
     "test": "./node_modules/.bin/mocha --reporter list"
   },
@@ -21,8 +27,7 @@
     "geo",
     "point"
   ],
-  "readme": "## Finding Points Within a Distance of a Latitude/Longitude Using Bounding Coordinates\n\nThis javascript implemantation was build up via [Jan Matuscheks Java Implementation](http://janmatuschek.de/LatitudeLongitudeBoundingCoordinates).\n\nI've tried to implement everything so that the look and feel seems to be the same.",
-  "readmeFilename": "README.md",
+  "homepage": "https://github.com/DoomyTheFroomy/GeoLocation#readme",
   "bugs": {
     "url": "https://github.com/DoomyTheFroomy/GeoLocation/issues"
   },
