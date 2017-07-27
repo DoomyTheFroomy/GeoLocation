@@ -1,5 +1,5 @@
 {
-  "name": "GeoLocation",
+  "name": "geolocationhelper",
   "version": "1.0.0",
   "description": "provides functions to get the distance between two points and to generate a bounding box around a point",
   "author": {

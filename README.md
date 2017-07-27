@@ -11,7 +11,7 @@ I've tried to implement everything so that the look and feel seems to be the sam
 ## Install
 
 ```js
-$ npm install GeoLocation
+$ npm install GeoLocationHelper
 ```
 
 ## How to Use
