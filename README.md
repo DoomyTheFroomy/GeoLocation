@@ -1,5 +1,7 @@
 # GeoLocation Helper Functions 
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/DoomyTheFroomy/GeoLocation.svg)](https://greenkeeper.io/)
+
 **Finding Points Within a Distance of a Latitude/Longitude Using Bounding Coordinates**
 
 [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
