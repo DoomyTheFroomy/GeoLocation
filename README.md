@@ -1,11 +1,10 @@
 # GeoLocation Helper Functions 
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/DoomyTheFroomy/GeoLocation.svg)](https://greenkeeper.io/)
-
 **Finding Points Within a Distance of a Latitude/Longitude Using Bounding Coordinates**
 
 [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 [![Build Status](https://travis-ci.org/DoomyTheFroomy/GeoLocation.svg?branch=develop)](https://travis-ci.org/DoomyTheFroomy/GeoLocation)
+[![Greenkeeper badge](https://badges.greenkeeper.io/DoomyTheFroomy/GeoLocation.svg)](https://greenkeeper.io/)
 
 This JavaScript implementation was build up via [Jan Matuscheks Java Implementation](http://janmatuschek.de/LatitudeLongitudeBoundingCoordinates).
 
