@@ -5,6 +5,7 @@
 [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 [![Build Status](https://travis-ci.org/DoomyTheFroomy/GeoLocation.svg?branch=develop)](https://travis-ci.org/DoomyTheFroomy/GeoLocation)
 [![Greenkeeper badge](https://badges.greenkeeper.io/DoomyTheFroomy/GeoLocation.svg)](https://greenkeeper.io/)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bhttps%3A%2F%2Fgithub.com%2FDoomyTheFroomy%2FGeoLocation.svg?type=shield)](https://app.fossa.io/projects/git%2Bhttps%3A%2F%2Fgithub.com%2FDoomyTheFroomy%2FGeoLocation?ref=badge_shield)
 
 This JavaScript implementation was build up via [Jan Matuscheks Java Implementation](http://janmatuschek.de/LatitudeLongitudeBoundingCoordinates).
 
@@ -34,3 +35,7 @@ var myLocation = geoLocation.fromRadians(1.3963, -0.6981)
 var earthRadius = 6371.01
 console.log(geoLocCapeTown.distanceTo(myLocation, earthRadius))
 ```
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bhttps%3A%2F%2Fgithub.com%2FDoomyTheFroomy%2FGeoLocation.svg?type=large)](https://app.fossa.io/projects/git%2Bhttps%3A%2F%2Fgithub.com%2FDoomyTheFroomy%2FGeoLocation?ref=badge_large)
