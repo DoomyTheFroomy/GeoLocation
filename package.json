@@ -8,7 +8,7 @@
     "url": "http://dtf.io/"
   },
   "devDependencies": {
-    "mocha": "6.1.4",
+    "mocha": "6.2.0",
     "underscore": "1.9.1"
   },
   "license": "MIT",
