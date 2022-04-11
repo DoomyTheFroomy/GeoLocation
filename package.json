@@ -8,8 +8,8 @@
     "url": "http://dtf.io/"
   },
   "devDependencies": {
-    "mocha": "7.1.0",
-    "underscore": "1.12.1"
+    "mocha": "^9.2.2",
+    "underscore": "^1.13.2"
   },
   "license": "MIT",
   "main": "GeoLocation.js",
